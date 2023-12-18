@@ -1,0 +1,56 @@
+{
+  "name": "Financial Transaction Validation V2",
+  "description": "Foodmart Grocery Corp is trying to improve the way they capture their books. They have a good amount of detail on recent financial transactions, however the Supplier Name for each transaction is missing. For each of the transactions provided below, lookup the corresponding transaction in Rusty Bank",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.10.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.10.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "3cf80bf5-4dc3-4417-8652-813793fd0de4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
